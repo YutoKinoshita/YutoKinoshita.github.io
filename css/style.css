@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  font-size: 14px;
+  margin: 0px auto;
+  text-align: center;
+}
+header {
+  color:#fff;
+  background-color:#3598DC;
+  margin-bottom: 30px;
+}
+header h1{
+  padding: 20px;
+  display: inline-block;
+  border: 5px #fff solid;
+  
+}
+nav {
+  padding: 10px 10px;
+  text-align: center;
+
+}
+
+nav ul {
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px 20px;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 15px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color:#fff ;
+}
+
+nav ul li a.selected {
+  color: #000;
+}
+.content:before{
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  /*display: block;*/
+  background-image: url('../img/background.jpeg');
+  background-size:cover;
+  background-position: center center;
+  height: 100%;
+  
+  -webkit-filter: blur(3px);
+  /*-moz-filter: blur(5px);*/
+  /*-o-filter: blur(5px);*/
+  /*-ms-filter: blur(5px);*/
+  filter: blur(5px);
+  
+}
+
+  /*background-image: url("../img/background.jpg");*/
+  /*-webkit-filter: blur(5px);*/
+  /*background-position: center center;*/
+  /*background-size: cover;*/
+  /*background-repeat: no-repeat;*/
+  /*//filter: blur(50px);*/
+  /*background-attachment: fixed;*/
+
+.content{
+  /*position: fixed;*/
+  /*left: 0;*/
+  /*right: 0;*/
+  z-index: 0;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.row h2{
+  width: 150px;
+  height:150px;
+  text-align:center;
+  vertical-align:center;
+  background-color:#fff;
+  color:#000;
+  border-radius: 100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.work{
+  height:auto;
+  width;auto;
+}
+.work img{
+  
+  max-width:200px;
+  margin:10px;
+}
+.table{
+  background-color:#fff;
+  margin:20px 0px;
+}
+.profile{
+  margin:20px 0px;
+}
+footer {
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #3598DC;
+  color: #fff;
+}
